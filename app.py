@@ -1,5 +1,5 @@
 import streamlit as st
-from pypdf import PdfReader
+from PyPDF2 import PdfReader
 from sentence_transformers import SentenceTransformer
 import numpy as np
 import re
